@@ -7,15 +7,15 @@
 
 import UIKit
 
-var count = 0
-
 final class ViewController: UIViewController {
+    var count = 0
+    
     @IBOutlet private weak var totalNumberLabel: UILabel!
     
     @IBOutlet private weak var countButton: UIButton!
     @IBOutlet private weak var clearButton: UIButton!
     
-    @IBAction private func caculationButton(_ sender: UIButton) {
+    @IBAction private func calculationButton(_ sender: UIButton) {
         countPush()
     }
     func countPush() {
