@@ -48,7 +48,7 @@
                     <connections>
                         <outlet property="clearButton" destination="YbM-YW-8eG" id="JyH-qq-yN1"/>
                         <outlet property="countButton" destination="SOg-DI-nzv" id="zhT-Jn-Afq"/>
-                        <outlet property="totalNumber" destination="LbN-vw-GaD" id="aaL-xB-kfg"/>
+                        <outlet property="totalNumberLabel" destination="LbN-vw-GaD" id="aCA-sN-gF0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

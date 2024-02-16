@@ -10,7 +10,7 @@ import UIKit
 var count = 0
 
 final class ViewController: UIViewController {
-    @IBOutlet private weak var totalNumber: UILabel!
+    @IBOutlet private weak var totalNumberLabel: UILabel!
     
     @IBOutlet private weak var countButton: UIButton!
     @IBOutlet private weak var clearButton: UIButton!
@@ -20,10 +20,11 @@ final class ViewController: UIViewController {
     }
     func countPush() {
         count += 1
-        totalNumber.text = String(count)
+        totalNumberLabel.text = String(count)
     }
     
     @IBAction private func clearTapButton(_ sender: UIButton) {
-        totalNumber.text = "0"
+        count = 0
+        totalNumberLabel.text = String(count)
     }
 }
